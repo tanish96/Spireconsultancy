@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+*{
+
+   margin: 0;
+   padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+  
+    justify-content: center;
+}
+.logo img{
+    width: 65%;
+    border-radius: 3px solid white;
+    border-radius: 47px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    background-color:#b1adad;
+    cursor: pointer;
+    top: 0%;
+    
+}
+.nav-list
+{
+ width: 70%;
+ display: flex;
+ align-items: center;
+
+}
+.nav-list li
+{
+    list-style: none;
+    padding: 25px 30px;
+}
+.nav-list li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'ubuntu' sans-serif;
+    color:#fff;
+
+}
+.right-nav{
+    width: 30%;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
+#search
+{
+    padding: 5px;
+    font-size: 17px;
+    
+    border-radius: 9px;
+}
+.burger
+{
+    display: none;
+ position: absolute;
+
+ cursor: pointer;
+ right: 5%;
+ top: 15px;
+}
+.line
+{
+    width: 13px;
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    margin: 3px 3px;
+}
+.btn
+{
+    padding:8px 20px;
+    margin: 7px 3px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-sm
+{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.secright
+{
+  height:400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+  font-family: 'Libre Baskerville', serif;
+}
+.thumbnail .right{
+  margin-left: 40%;
+  border-radius: 20%;
+}
+.text-big
+{
+  font-size: 28px;
+}
+.st-tu
+{
+  display: flex;
+  padding-left: 12%;
+}
+.student .st{
+    padding-left:85px;
+}
+
+.tuto-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.tuto-content a {
+  color: black;
+  padding: 12px  16px;
+  text-decoration: none;
+  display: block;
+}
+.stu-content a{
+  color: black;
+  padding: 12px  16px;
+  text-decoration: none;
+  display: block;
+}
+.stu-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 60px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.tuto a:hover {background-color: #ddd;}
+
+.show {display: block;}
+.http h1 span
+{
+    color: #e20026;
+}
+.holdingcontainer
+{
+    min-height: 200px;
+    background-color: #f0f3ff;
+    max-width: 100%;
+    display: flex;
+    margin-left: 30px;
+    margin-right:30px;
+    padding: 20px 25px;
+    flex-direction:row;  
+}
+.internalcontainerL
+{
+   
+   flex: 1;
+   padding: 10px;
+   font-size: 15px;
+   font-family: - Roboto, sans-serif;
+
+
+}
+.internalcontainerR
+{
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+   font-family: - Roboto, sans-serif;
+}
+.internalcontainerD
+{
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+   font-family: - Roboto, sans-serif;
+}
+.internalcontainerA
+{
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+   font-family: - Roboto, sans-serif;
+}
+.internalcontainerB
+{
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+   font-family: - Roboto, sans-serif;
+}
+.internalcontainerC
+{
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+   font-family: - Roboto, sans-serif;
+}
+.holdingcontainer :hover
+{
+    border-radius: 10px;
+    background-color: rgb(225, 250, 252);
+   
+    box-shadow: rgb(228, 231, 248);
+    transform: translateY(-1px);
+    
+}
+.secvdo
+{
+    position: relative;
+    max-width: 97%;
+    height: 400px;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right:30px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg,#008aff,#ff137d),url(/Users/tanishsahu/Downloads/js.jpeg);
+    background-blend-mode: screen;
+}
+.set p{
+    margin: 10px;
+    padding:7px;  
+    font-size: 1em;
+    background: linear-gradient(180deg,#0040f1,#f12bf1);
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+}
+ .wave
+ {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+ .content
+    {
+        background-color: #060c21;
+        
+        flex-direction: row;
+         padding: 10px;
+         margin: 30px;
+       
+    }
+    .content h1
+    {
+      color: #fff;
+      text-align: center;
+      margin: 10px;
+    }
+    .content h1 span
+    {
+       color: #ff022c;
+    }
+    .content p
+    {
+      color:   #fff;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 18px;
+    }
+    .feature
+    { 
+       margin-right: 10px;
+        display: inline-flex;
+        width: 100%;
+        flex-direction: row;
+    }
+    .featureL
+    {
+        flex: 1;
+    }
+    .featureR
+    {
+        flex: 1;
+    }
+    .featureL a{
+        display: block;
+        color: #fff;
+        padding:10px;
+        margin: 10px;
+        text-align: center;
+        flex-direction: row;
+        border: 3px solid #fff;
+
+    }
+    .featureR a{
+        display: block;
+        color: #fff;
+        padding:10px;
+        margin: 10px;
+        margin-left: 2px;
+        text-align: center;
+        border: 3px solid #fff;
+    }
+    .featureL a:hover
+    {
+        box-shadow: #050a1d;
+        transform: scale(1, 1.2);
+       
+   }
+    .featureR a:hover
+    {
+        box-shadow: #050a1d;
+        transform: scale(1, 1.2);
+    }
+    
+.bttn
+{
+    color: #fff;
+    padding: 15px;
+   
+	border-radius: 40px;
+	background: linear-gradient(90deg,#0162c8,#55e7fc);
+}
+.overview
+{
+   
+    text-align: center;
+    justify-content: center;
+    background-color: #f0f3ff;
+    min-height: 200px;
+    margin-left: 30px;
+    margin-right:30px;
+    padding: 20px 25px;
+    display:flex;
+    
+}
+.concept .conc 
+{
+    margin: 50px;
+}
+.concept #con{
+    margin: 30px;
+}
+.concept #con:hover{
+    color: #0040f1;
+}
+.code #codew{
+  margin: 30px;
+  
+}
+.code .codeth{
+    margin: 50px;
+}
+.code #codew:hover
+{
+    color: #0040f1;
+}
+
+.lang
+{
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-list ul li{
+    list-style-type: none;
+    padding: 20px;
+    text-align: right;
+    margin-left:60px;
+}
+#nam
+{
+    padding: 10px;
+}
+#lan
+{
+    padding: 10px;
+    padding-left: 5px;
+}
+.footer{
+    background-color: #060c21;
+}
+.ft-cont
+{
+    display: flex;
+}
+.footer .ft-cont {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.ft-cont a{
+    padding: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-bottom
+{
+    color:#fff;
+    text-align: center;
+}
+
