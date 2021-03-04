@@ -40,3 +40,6 @@ window.onclick=function(event){
       }
     }
 }
+function myFunction() {
+  alert("There are no course available now ! ");
+}
